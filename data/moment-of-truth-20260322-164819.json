@@ -1,0 +1,163 @@
+{
+  "locale": "en",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 3,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "PERFECT!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Moment of Truth",
+      "locale": "en",
+      "editorThemePreset": "ember"
+    },
+    "progress": {
+      "playerLabel": "Player",
+      "finishLabel": "Finish"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Achievement",
+          "text": "3 correct answers in a row"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Achievement",
+          "text": "5 correct answers in a row"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Sharpshooter",
+          "text": "3 perfect hits in a row"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Survivor",
+          "text": "Win with one life left"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Cold Blood",
+          "text": "Win without Freeze Frame"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Precise answer.",
+        "Answer locked in.",
+        "Strong rhythm."
+      ],
+      "wrong": [
+        "Missed the target.",
+        "Wrong sector.",
+        "Try a different pace."
+      ],
+      "combo": {
+        "2": "Combo x2. Pace established.",
+        "3": "Combo x3. Great rhythm.",
+        "5": "Combo x5. Perfect flow."
+      },
+      "perfect": [
+        "Perfect hit.",
+        "Dead center.",
+        "Flawless."
+      ],
+      "lastChance": "Last life. Hold your rhythm."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#170d09",
+        "bgDeep": "#090403",
+        "text": "#fff7f1",
+        "muted": "#90a6c3",
+        "accent": "#ffd76a",
+        "accent2": "#ff9248",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(255,146,72,0.41)",
+        "grid": "rgba(255,146,72,0.11)"
+      },
+      "scene": {
+        "top": "rgba(40,21,15,0.00)",
+        "mid": "rgba(20,11,8,0.00)",
+        "bottom": "rgba(9,4,3,0.00)",
+        "glow1": "rgba(255,146,72,0.04)",
+        "glow2": "rgba(255,146,72,0.02)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(255,146,72,0.00)"
+      },
+      "panels": {
+        "top": "rgba(34,20,15,0.12)",
+        "bottom": "rgba(12,7,5,0.12)",
+        "glow": "rgba(255,146,72,0.73)",
+        "border": "rgba(255,146,72,0.50)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "ооо",
+      "answers": [
+        "7",
+        "78",
+        "99",
+        "90"
+      ],
+      "correct_index": 2,
+      "speed": 320,
+      "mode": "normal"
+    },
+    {
+      "id": "question_2",
+      "question": "орс",
+      "answers": [
+        "па",
+        "чп",
+        "па"
+      ],
+      "correct_index": 0,
+      "speed": 700,
+      "mode": "double_step"
+    }
+  ]
+}
