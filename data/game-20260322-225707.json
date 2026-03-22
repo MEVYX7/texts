@@ -1,0 +1,184 @@
+{
+  "locale": "ru",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 1,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "ИДЕАЛ!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Момент истины",
+      "locale": "ru",
+      "editorThemePreset": "ocean",
+      "editorPanelPreset": "deep",
+      "editorAnswerBandPreset": "deep",
+      "editorMainPanelPreset": "deep"
+    },
+    "progress": {
+      "playerLabel": "Игрок",
+      "finishLabel": "Финиш"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Ачивка",
+          "text": "Серия 3 ответа подряд"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Ачивка",
+          "text": "Серия 5 ответов подряд"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Снайпер",
+          "text": "3 идеальных попадания подряд"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Спасение",
+          "text": "Победа с одной жизнью"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Хладнокровие",
+          "text": "Победа без Стоп-кадра"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Точное решение.",
+        "Ответ принят.",
+        "Отличный темп."
+      ],
+      "wrong": [
+        "Мимо цели.",
+        "Не тот сектор.",
+        "Попробуй другой ритм."
+      ],
+      "combo": {
+        "2": "Серия x2. Темп набран.",
+        "3": "Серия x3. Отличный ритм.",
+        "5": "Серия x5. Идеальный заход."
+      },
+      "perfect": [
+        "Идеальное попадание.",
+        "Чистый центр.",
+        "Безупречно."
+      ],
+      "lastChance": "Последняя жизнь. Держи темп."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#06111f",
+        "bgDeep": "#030814",
+        "panel": "rgba(11,26,49,0.74)",
+        "panel2": "rgba(10,22,42,0.90)",
+        "panelSolid": "#0b1a31",
+        "text": "#f5fbff",
+        "muted": "#90a6c3",
+        "accent": "#59f3b2",
+        "accent2": "#49d8ff",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(73,216,255,0.10)",
+        "grid": "rgba(73,216,255,0.03)"
+      },
+      "scene": {
+        "top": "rgba(11,29,51,1.00)",
+        "mid": "rgba(8,20,38,1.00)",
+        "bottom": "rgba(5,12,24,1.00)",
+        "glow1": "rgba(73,216,255,0.01)",
+        "glow2": "rgba(73,216,255,0.00)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(73,216,255,0.01)"
+      },
+      "panels": {
+        "top": "rgba(11,26,49,0.90)",
+        "bottom": "rgba(6,13,25,0.90)",
+        "glow": "rgba(73,216,255,0.17)",
+        "border": "rgba(73,216,255,0.12)",
+        "introOverlayTop": "rgba(3,8,20,0.62)",
+        "introOverlayBottom": "rgba(3,8,20,0.78)",
+        "introCardTop": "rgba(11,26,49,0.96)",
+        "introCardBottom": "rgba(6,13,25,0.98)",
+        "introCardBorder": "rgba(73,216,255,0.14)"
+      },
+      "tiles": {
+        "top": "#0b1a31",
+        "bottom": "#060d19",
+        "softTop": "#0e1b31",
+        "softBottom": "#0a1323",
+        "pillTop": "#0f1b31",
+        "pillBottom": "#060d19",
+        "border": "rgba(31,87,115,0.12)",
+        "glow": "rgba(73,216,255,0.14)"
+      },
+      "answerBand": {
+        "top": "#0e1b31",
+        "bottom": "#0a1323",
+        "border": "rgba(28,72,98,0.10)",
+        "glow": "rgba(73,216,255,0.09)"
+      },
+      "mainPanel": {
+        "top": "rgba(15,27,49,0.92)",
+        "bottom": "rgba(6,13,25,0.98)",
+        "border": "rgba(28,69,94,0.10)",
+        "glow": "rgba(73,216,255,0.07)",
+        "grid": "rgba(73,216,255,0.02)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "1",
+      "answers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_index": 0,
+      "speed": 320,
+      "mode": "normal"
+    }
+  ]
+}
