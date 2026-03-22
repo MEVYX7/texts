@@ -1,0 +1,200 @@
+{
+  "locale": "en",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 10,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "PERFECT!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Moment of Truth",
+      "locale": "en",
+      "editorThemePreset": "emerald"
+    },
+    "progress": {
+      "playerLabel": "Player",
+      "finishLabel": "Finish"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Achievement",
+          "text": "3 correct answers in a row"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Achievement",
+          "text": "5 correct answers in a row"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Sharpshooter",
+          "text": "3 perfect hits in a row"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Survivor",
+          "text": "Win with one life left"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Cold Blood",
+          "text": "Win without Freeze Frame"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Precise answer.",
+        "Answer locked in.",
+        "Strong rhythm."
+      ],
+      "wrong": [
+        "Missed the target.",
+        "Wrong sector.",
+        "Try a different pace."
+      ],
+      "combo": {
+        "2": "Combo x2. Pace established.",
+        "3": "Combo x3. Great rhythm.",
+        "5": "Combo x5. Perfect flow."
+      },
+      "perfect": [
+        "Perfect hit.",
+        "Dead center.",
+        "Flawless."
+      ],
+      "lastChance": "Last life. Hold your rhythm."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#06111f",
+        "bgDeep": "#030814",
+        "text": "#f5fbff",
+        "muted": "#90a6c3",
+        "accent": "#7cf7d0",
+        "accent2": "#59f3b2",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(89,243,178,0.41)",
+        "grid": "rgba(89,243,178,0.11)"
+      },
+      "scene": {
+        "top": "rgba(11,29,51,0.00)",
+        "mid": "rgba(8,20,38,0.00)",
+        "bottom": "rgba(5,12,24,0.00)",
+        "glow1": "rgba(89,243,178,0.04)",
+        "glow2": "rgba(89,243,178,0.02)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(89,243,178,0.00)"
+      },
+      "panels": {
+        "top": "rgba(11,26,49,0.12)",
+        "bottom": "rgba(6,13,25,0.12)",
+        "glow": "rgba(89,243,178,0.73)",
+        "border": "rgba(89,243,178,0.50)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "Which number is prime?",
+      "answers": [
+        "9",
+        "11",
+        "15",
+        "90"
+      ],
+      "correct_index": 0,
+      "speed": 500,
+      "mode": "normal"
+    },
+    {
+      "id": "question_2",
+      "question": "Which planet is known as the Red Planet?сптр",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Saturn",
+        "плм"
+      ],
+      "correct_index": 0,
+      "speed": 360,
+      "mode": "speed"
+    },
+    {
+      "id": "question_3",
+      "question": "What is 6 × 7?",
+      "answers": [
+        "42",
+        "36",
+        "48"
+      ],
+      "correct_index": 0,
+      "speed": 300,
+      "mode": "safe"
+    },
+    {
+      "id": "question_4",
+      "question": "Which ocean is the largest?",
+      "answers": [
+        "Atlantic",
+        "Indian",
+        "Pacific"
+      ],
+      "correct_index": 2,
+      "speed": 320,
+      "mode": "double_step"
+    },
+    {
+      "id": "question_5",
+      "question": "Which gas do plants absorb from the air?",
+      "answers": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen"
+      ],
+      "correct_index": 1,
+      "speed": 390,
+      "mode": "boss"
+    }
+  ]
+}
