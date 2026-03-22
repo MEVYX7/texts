@@ -1,0 +1,211 @@
+{
+  "locale": "en",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 3,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "PERFECT!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Moment of Truth",
+      "locale": "en",
+      "editorThemePreset": "emerald",
+      "editorPanelPreset": "steel",
+      "editorAnswerBandPreset": "berry",
+      "editorMainPanelPreset": "mist"
+    },
+    "progress": {
+      "playerLabel": "Player",
+      "finishLabel": "Finish"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Achievement",
+          "text": "3 correct answers in a row"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Achievement",
+          "text": "5 correct answers in a row"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Sharpshooter",
+          "text": "3 perfect hits in a row"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Survivor",
+          "text": "Win with one life left"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Cold Blood",
+          "text": "Win without Freeze Frame"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Precise answer.",
+        "Answer locked in.",
+        "Strong rhythm."
+      ],
+      "wrong": [
+        "Missed the target.",
+        "Wrong sector.",
+        "Try a different pace."
+      ],
+      "combo": {
+        "2": "Combo x2. Pace established.",
+        "3": "Combo x3. Great rhythm.",
+        "5": "Combo x5. Perfect flow."
+      },
+      "perfect": [
+        "Perfect hit.",
+        "Dead center.",
+        "Flawless."
+      ],
+      "lastChance": "Last life. Hold your rhythm."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#071715",
+        "bgDeep": "#030b0a",
+        "panel": "rgba(12,33,29,0.74)",
+        "panel2": "rgba(11,29,25,0.90)",
+        "panelSolid": "#0c211d",
+        "text": "#f3fffb",
+        "muted": "#90a6c3",
+        "accent": "#7cf7d0",
+        "accent2": "#59f3b2",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(89,243,178,0.10)",
+        "grid": "rgba(89,243,178,0.03)"
+      },
+      "scene": {
+        "top": "rgba(12,36,32,1.00)",
+        "mid": "rgba(9,23,20,1.00)",
+        "bottom": "rgba(5,12,11,1.00)",
+        "glow1": "rgba(89,243,178,0.01)",
+        "glow2": "rgba(89,243,178,0.00)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(89,243,178,0.01)"
+      },
+      "panels": {
+        "top": "rgba(12,33,29,0.90)",
+        "bottom": "rgba(7,17,15,0.90)",
+        "glow": "rgba(89,243,178,0.17)",
+        "border": "rgba(89,243,178,0.12)",
+        "introOverlayTop": "rgba(3,11,10,0.62)",
+        "introOverlayBottom": "rgba(3,11,10,0.78)",
+        "introCardTop": "rgba(12,33,29,0.96)",
+        "introCardBottom": "rgba(7,17,15,0.98)",
+        "introCardBorder": "rgba(89,243,178,0.14)"
+      },
+      "tiles": {
+        "top": "#30465d",
+        "bottom": "#1d2c3b",
+        "softTop": "#2d3f55",
+        "softBottom": "#223244",
+        "pillTop": "#31465c",
+        "pillBottom": "#1d2c3b",
+        "border": "rgba(61,125,120,0.12)",
+        "glow": "rgba(89,243,178,0.14)"
+      },
+      "answerBand": {
+        "top": "#6f476a",
+        "bottom": "#563753",
+        "border": "rgba(106,112,123,0.10)",
+        "glow": "rgba(89,243,178,0.09)"
+      },
+      "mainPanel": {
+        "top": "rgba(96,118,141,0.92)",
+        "bottom": "rgba(75,97,119,0.98)",
+        "border": "rgba(94,146,149,0.10)",
+        "glow": "rgba(89,243,178,0.07)",
+        "grid": "rgba(89,243,178,0.02)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "ро",
+      "answers": [
+        "1",
+        "3",
+        "6"
+      ],
+      "correct_index": 2,
+      "speed": 500,
+      "mode": "speed"
+    },
+    {
+      "id": "question_2",
+      "question": "675",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_index": 1,
+      "speed": 320,
+      "mode": "speed"
+    },
+    {
+      "id": "question_3",
+      "question": "оаолдлав",
+      "answers": [
+        "рп",
+        "пп",
+        "нев",
+        "вп",
+        "вп"
+      ],
+      "correct_index": 4,
+      "speed": 800,
+      "mode": "double_step"
+    }
+  ]
+}
