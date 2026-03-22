@@ -1,0 +1,201 @@
+{
+  "locale": "ru",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 10,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "ИДЕАЛ!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Момент истины",
+      "locale": "ru",
+      "editorThemePreset": "rose"
+    },
+    "progress": {
+      "playerLabel": "Игрок",
+      "finishLabel": "Финиш"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Ачивка",
+          "text": "Серия 3 ответа подряд"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Ачивка",
+          "text": "Серия 5 ответов подряд"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Снайпер",
+          "text": "3 идеальных попадания подряд"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Спасение",
+          "text": "Победа с одной жизнью"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Хладнокровие",
+          "text": "Победа без Стоп-кадра"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Точное решение.",
+        "Ответ принят.",
+        "Отличный темп."
+      ],
+      "wrong": [
+        "Мимо цели.",
+        "Не тот сектор.",
+        "Попробуй другой ритм."
+      ],
+      "combo": {
+        "2": "Серия x2. Темп набран.",
+        "3": "Серия x3. Отличный ритм.",
+        "5": "Серия x5. Идеальный заход."
+      },
+      "perfect": [
+        "Идеальное попадание.",
+        "Чистый центр.",
+        "Безупречно."
+      ],
+      "lastChance": "Последняя жизнь. Держи темп."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#06111f",
+        "bgDeep": "#030814",
+        "text": "#f5fbff",
+        "muted": "#90a6c3",
+        "accent": "#ff93c8",
+        "accent2": "#ff5ea8",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(255,94,168,0.41)",
+        "grid": "rgba(255,94,168,0.11)"
+      },
+      "scene": {
+        "top": "rgba(11,29,51,0.00)",
+        "mid": "rgba(8,20,38,0.00)",
+        "bottom": "rgba(5,12,24,0.00)",
+        "glow1": "rgba(255,94,168,0.04)",
+        "glow2": "rgba(255,94,168,0.02)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(255,94,168,0.00)"
+      },
+      "panels": {
+        "top": "rgba(11,26,49,0.12)",
+        "bottom": "rgba(6,13,25,0.12)",
+        "glow": "rgba(255,94,168,0.73)",
+        "border": "rgba(255,94,168,0.50)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "Какое число является простым?",
+      "answers": [
+        "9",
+        "11",
+        "15",
+        "5",
+        "30"
+      ],
+      "correct_index": 2,
+      "speed": 500,
+      "mode": "speed"
+    },
+    {
+      "id": "question_2",
+      "question": "Какая планета известна как голубаяпланета?",
+      "answers": [
+        "Венера",
+        "Марс",
+        "Сатурн",
+        "земля"
+      ],
+      "correct_index": 1,
+      "speed": 500,
+      "mode": "speed"
+    },
+    {
+      "id": "question_3",
+      "question": "Сколько будет 6 × 7?",
+      "answers": [
+        "42",
+        "36",
+        "48"
+      ],
+      "correct_index": 0,
+      "speed": 300,
+      "mode": "safe"
+    },
+    {
+      "id": "question_4",
+      "question": "Какой океан самый большой?",
+      "answers": [
+        "Атлантический",
+        "Индийский",
+        "Тихий"
+      ],
+      "correct_index": 2,
+      "speed": 320,
+      "mode": "double_step"
+    },
+    {
+      "id": "question_5",
+      "question": "Какой газ растения поглощают из воздуха?",
+      "answers": [
+        "Кислород",
+        "Углекислый газ",
+        "Азот"
+      ],
+      "correct_index": 1,
+      "speed": 390,
+      "mode": "boss"
+    }
+  ]
+}
