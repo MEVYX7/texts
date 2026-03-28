@@ -1,0 +1,196 @@
+{
+  "locale": "de",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 2,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "PERFEKT!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Moment der Wahrheit",
+      "locale": "de",
+      "editorThemePreset": "dawn",
+      "editorPanelPreset": "mist",
+      "editorAnswerBandPreset": "sand",
+      "editorMainPanelPreset": "sand"
+    },
+    "progress": {
+      "playerLabel": "Spieler",
+      "finishLabel": "Ziel"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Erfolg",
+          "text": "3 richtige Antworten in Folge"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Erfolg",
+          "text": "5 richtige Antworten in Folge"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Scharfschütze",
+          "text": "3 perfekte Treffer in Folge"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Überlebender",
+          "text": "Sieg mit nur einem Leben"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Kaltblütig",
+          "text": "Sieg ohne Freeze Frame"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Präzise Antwort.",
+        "Antwort bestätigt.",
+        "Starker Rhythmus."
+      ],
+      "wrong": [
+        "Ziel verfehlt.",
+        "Falscher Sektor.",
+        "Versuche ein anderes Tempo."
+      ],
+      "combo": {
+        "2": "Combo x2. Das Tempo steht.",
+        "3": "Combo x3. Sehr guter Rhythmus.",
+        "5": "Combo x5. Perfekter Lauf."
+      },
+      "perfect": [
+        "Perfekter Treffer.",
+        "Genau in der Mitte.",
+        "Makellos."
+      ],
+      "lastChance": "Letztes Leben. Halte den Rhythmus."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#f4c9a6",
+        "bgDeep": "#e78a66",
+        "panel": "rgba(106,63,51,0.74)",
+        "panel2": "rgba(94,55,45,0.90)",
+        "panelSolid": "#6a3f33",
+        "text": "#fff8f2",
+        "muted": "#90a6c3",
+        "accent": "#ffd36b",
+        "accent2": "#ffb27c",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(255,178,124,0.10)",
+        "grid": "rgba(255,178,124,0.03)"
+      },
+      "scene": {
+        "top": "rgba(247,214,184,1.00)",
+        "mid": "rgba(239,176,141,1.00)",
+        "bottom": "rgba(222,127,99,1.00)",
+        "glow1": "rgba(255,154,92,0.01)",
+        "glow2": "rgba(255,154,92,0.00)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(255,154,92,0.01)"
+      },
+      "panels": {
+        "top": "rgba(106,63,51,0.90)",
+        "bottom": "rgba(64,36,30,0.90)",
+        "glow": "rgba(255,154,92,0.17)",
+        "border": "rgba(255,178,124,0.12)",
+        "introOverlayTop": "rgba(231,138,102,0.62)",
+        "introOverlayBottom": "rgba(231,138,102,0.78)",
+        "introCardTop": "rgba(106,63,51,0.96)",
+        "introCardBottom": "rgba(64,36,30,0.98)",
+        "introCardBorder": "rgba(255,178,124,0.14)"
+      },
+      "tiles": {
+        "top": "#71889f",
+        "bottom": "#4b6177",
+        "softTop": "#667c93",
+        "softBottom": "#495c70",
+        "pillTop": "#60768d",
+        "pillBottom": "#4b6177",
+        "border": "rgba(158,149,148,0.12)",
+        "glow": "rgba(255,178,124,0.14)"
+      },
+      "answerBand": {
+        "top": "#795947",
+        "bottom": "#5c4436",
+        "border": "rgba(153,110,84,0.10)",
+        "glow": "rgba(255,178,124,0.09)"
+      },
+      "mainPanel": {
+        "top": "rgba(127,96,77,0.92)",
+        "bottom": "rgba(92,68,55,0.98)",
+        "border": "rgba(155,114,87,0.10)",
+        "glow": "rgba(255,178,124,0.07)",
+        "grid": "rgba(255,178,124,0.02)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "Am Wochenende gehe ich sehr gerne in die Disko…",
+      "answers": [
+        "tanzen",
+        "zu tanzen",
+        "zu getanzt bin"
+      ],
+      "correct_index": 0,
+      "speed": 370,
+      "mode": "safe"
+    },
+    {
+      "id": "question_2",
+      "question": "Meine Tante hat geschrieben, dass sie uns besucht, und wir freuen uns, sie bald sehen…",
+      "answers": [
+        "gekonnt",
+        "zu können",
+        "können"
+      ],
+      "correct_index": 2,
+      "speed": 500,
+      "mode": "speed"
+    }
+  ]
+}
