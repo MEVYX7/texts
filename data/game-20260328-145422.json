@@ -1,0 +1,236 @@
+{
+  "locale": "ru",
+  "config": {
+    "gameplay": {
+      "lives": 3,
+      "stepsToFinish": 5,
+      "maxAnswerLength": 40,
+      "scoreCountDurationMs": 1100
+    },
+    "movement": {
+      "movementType": "pingpong",
+      "minStopDelayMs": 800,
+      "defaultSpeed": 320,
+      "indicatorType": "runner"
+    },
+    "bonuses": {
+      "freezeDurationMs": 10000,
+      "energyEnabled": true,
+      "energyMax": 100,
+      "freezeCost": 100,
+      "fiftyCost": 60,
+      "energyGainCorrect": 30,
+      "energyGainPerfect": 20,
+      "energyLossWrong": 20
+    },
+    "perfect": {
+      "enabled": true,
+      "thresholdRatio": 0.12,
+      "text": "ИДЕАЛ!"
+    },
+    "audio": {
+      "enabled": true,
+      "volume": 0.05
+    },
+    "content": {
+      "title": "Момент истины",
+      "locale": "ru",
+      "editorThemePreset": "pearl",
+      "editorPanelPreset": "berry",
+      "editorAnswerBandPreset": "mist",
+      "editorMainPanelPreset": "steel"
+    },
+    "progress": {
+      "playerLabel": "Игрок",
+      "finishLabel": "Финиш"
+    },
+    "achievements": {
+      "list": [
+        {
+          "id": "combo3",
+          "check": "combo3",
+          "title": "Ачивка",
+          "text": "Серия 3 ответа подряд"
+        },
+        {
+          "id": "combo5",
+          "check": "combo5",
+          "title": "Ачивка",
+          "text": "Серия 5 ответов подряд"
+        },
+        {
+          "id": "perfect3",
+          "check": "perfect3",
+          "title": "Снайпер",
+          "text": "3 идеальных попадания подряд"
+        },
+        {
+          "id": "survivor",
+          "check": "survivor",
+          "title": "Спасение",
+          "text": "Победа с одной жизнью"
+        },
+        {
+          "id": "cool",
+          "check": "cool",
+          "title": "Хладнокровие",
+          "text": "Победа без Стоп-кадра"
+        }
+      ]
+    },
+    "messages": {
+      "correct": [
+        "Точное решение.",
+        "Ответ принят.",
+        "Отличный темп."
+      ],
+      "wrong": [
+        "Мимо цели.",
+        "Не тот сектор.",
+        "Попробуй другой ритм."
+      ],
+      "combo": {
+        "2": "Серия x2. Темп набран.",
+        "3": "Серия x3. Отличный ритм.",
+        "5": "Серия x5. Идеальный заход."
+      },
+      "perfect": [
+        "Идеальное попадание.",
+        "Чистый центр.",
+        "Безупречно."
+      ],
+      "lastChance": "Последняя жизнь. Держи темп."
+    },
+    "theme": {
+      "colors": {
+        "bg": "#f3f1ef",
+        "bgDeep": "#d8d4cf",
+        "panel": "rgba(58,64,75,0.74)",
+        "panel2": "rgba(52,57,68,0.90)",
+        "panelSolid": "#3a404b",
+        "text": "#fbfdff",
+        "muted": "#90a6c3",
+        "accent": "#f0d8ff",
+        "accent2": "#d5c8ff",
+        "accent3": "#ffd76a",
+        "correct": "#39d98a",
+        "wrong": "#ff5f7a",
+        "danger": "#ff5f7a",
+        "warning": "#ffb84d",
+        "border": "rgba(213,200,255,0.10)",
+        "grid": "rgba(213,200,255,0.03)"
+      },
+      "scene": {
+        "top": "rgba(251,250,248,1.00)",
+        "mid": "rgba(235,231,225,1.00)",
+        "bottom": "rgba(215,209,202,1.00)",
+        "glow1": "rgba(198,176,255,0.01)",
+        "glow2": "rgba(198,176,255,0.00)",
+        "aurora1": "rgba(0,0,0,0)",
+        "aurora2": "rgba(0,0,0,0)",
+        "aurora3": "rgba(0,0,0,0)",
+        "gridLine": "rgba(198,176,255,0.01)"
+      },
+      "panels": {
+        "top": "rgba(58,64,75,0.90)",
+        "bottom": "rgba(35,40,49,0.90)",
+        "glow": "rgba(198,176,255,0.17)",
+        "border": "rgba(213,200,255,0.12)",
+        "introOverlayTop": "rgba(216,212,207,0.62)",
+        "introOverlayBottom": "rgba(216,212,207,0.78)",
+        "introCardTop": "rgba(58,64,75,0.96)",
+        "introCardBottom": "rgba(35,40,49,0.98)",
+        "introCardBorder": "rgba(213,200,255,0.14)"
+      },
+      "tiles": {
+        "top": "#774b71",
+        "bottom": "#4a2d46",
+        "softTop": "#6f476a",
+        "softBottom": "#563753",
+        "pillTop": "#6d4568",
+        "pillBottom": "#4a2d46",
+        "border": "rgba(149,115,158,0.12)",
+        "glow": "rgba(213,200,255,0.14)"
+      },
+      "answerBand": {
+        "top": "#667c93",
+        "bottom": "#495c70",
+        "border": "rgba(129,142,173,0.10)",
+        "glow": "rgba(213,200,255,0.09)"
+      },
+      "mainPanel": {
+        "top": "rgba(49,70,92,0.92)",
+        "bottom": "rgba(29,44,59,0.98)",
+        "border": "rgba(85,99,128,0.10)",
+        "glow": "rgba(213,200,255,0.07)",
+        "grid": "rgba(213,200,255,0.02)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "question_1",
+      "question": "В каком слове НЕВЕРНО выделена буква, обозначающая ударный гласный звук?",
+      "answers": [
+        "баловАть",
+        "значИмый",
+        "свЁкла"
+      ],
+      "correct_index": 1,
+      "speed": 500,
+      "mode": "speed"
+    },
+    {
+      "id": "question_2",
+      "question": "Укажите пример с ошибкой в образовании формы слова.",
+      "answers": [
+        "более глубже",
+        "шестьюстами метрами",
+        "кладите на место",
+        "все повара"
+      ],
+      "correct_index": 0,
+      "speed": 350,
+      "mode": "normal"
+    },
+    {
+      "id": "question_3",
+      "question": "В каком предложении НЕ со словом пишется раздельно?",
+      "answers": [
+        "Город расположен на берегу (не)замерзающего залива.",
+        "На пороге стоял (не)знакомый юноша.",
+        "Пирог оказался очень (не)вкусным.",
+        "Давно я (не)был в родных местах!",
+        "(Не)правдою счастья вряд ли добудешь."
+      ],
+      "correct_index": 3,
+      "speed": 450,
+      "mode": "safe"
+    },
+    {
+      "id": "question_4",
+      "question": "В каком слове на месте пропуска пишется буква Ё?",
+      "answers": [
+        "холщ.вая (ткань)",
+        "ноч.вка",
+        "ш. рох",
+        "сундуч.к"
+      ],
+      "correct_index": 1,
+      "speed": 200,
+      "mode": "double_step"
+    },
+    {
+      "id": "question_5",
+      "question": "В каком слове на месте пропуска пишется НН?",
+      "answers": [
+        "гуси.ая кожа",
+        "красивая вяза.ная кофточка",
+        "образова.ые люди"
+      ],
+      "correct_index": 2,
+      "speed": 420,
+      "mode": "normal"
+    }
+  ]
+}
